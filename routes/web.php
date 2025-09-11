@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('pages.dashboard');
 })
 // ->middleware(['auth'])
 ->name('dashboard');
